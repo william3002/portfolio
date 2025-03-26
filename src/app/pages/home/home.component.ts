@@ -54,6 +54,7 @@ export class HomeComponent implements OnInit {
       gsap.from(habilidades, {
         x: 500,
         duration: 2,
+        daley:1,
         ease: "expo.out",
         scrollTrigger: {
           trigger: sobre,
