@@ -42,12 +42,13 @@ div > div > ul > li{
     width: 70px;
 }
 
+
 @media (width >= 800px) {
     #container{
         height: 652px;
         gap: 200px;
     }
-
+    
     #container > div > p{
         width: 400px;
     }
@@ -61,7 +62,7 @@ div > div > ul > li{
         width: 400px;
         grid-template-columns: repeat(3, .5fr); /* 2 colunas */
     }
-
+    
     #habilidades{
         width: 550px;
         height: 360px;
@@ -75,7 +76,7 @@ div > div > ul > li{
         width: 550px;
         height: 360px;
     }
-
+    
     #projetos{        
         gap: 100px;
     }
@@ -86,5 +87,49 @@ div > div > ul > li{
     
     #box2{
         height: 300px;
+    }
+}
+
+@media (width >= 1000px) {
+    #container{
+        height: 652px;
+        gap: 200px;
+    }
+    
+    #box-pai{
+        height: 850px;
+    }
+    
+    #projetos{
+        gap: 28px;
+    }
+
+    #container > div > img{
+        margin-right: 72px;
+    }
+}
+
+@media (width >= 1200px) {
+    #container{
+        height: 652px;
+        gap: 200px;
+    }
+    
+    #box-pai{
+        height: 460px;
+    }
+    
+    #projetos{
+        gap: 70px;
+    }
+    
+    #container > div > img{
+        margin-right: 0px;
+    }
+}
+
+@media (width >= 1400px) {
+    #projetos{
+        gap: 125px;
     }
 }
