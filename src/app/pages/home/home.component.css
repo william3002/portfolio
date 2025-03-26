@@ -1,0 +1,90 @@
+#container{
+    background-color: #1E477F;
+    height: 667px;
+}
+
+#container > div > img{
+    width: 300px;
+}
+
+.img-logo{
+    width: 15px;
+}
+
+#sobre{
+    height: 340px;
+}
+
+.icones{
+    width: 60px;
+}
+
+#box {
+    background-color: white;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, .5fr); /* 2 colunas */
+    justify-items: center;
+    gap: 10px;
+}
+
+#qualificacao{
+    width: 320px;
+    background-color: #1E477F;
+}
+
+#habilidades{
+    width: 320px;
+    background-color: #1E477F;
+}
+
+div > div > ul > li{
+    width: 70px;
+}
+
+@media (width >= 800px) {
+    #container{
+        height: 652px;
+        gap: 200px;
+    }
+
+    #container > div > p{
+        width: 400px;
+    }
+    
+    #sobre {
+        width: 820px;
+        height: 400px;
+    }
+    
+    #box{
+        width: 400px;
+        grid-template-columns: repeat(3, .5fr); /* 2 colunas */
+    }
+
+    #habilidades{
+        width: 550px;
+        height: 360px;
+    }
+    
+    #habilidades > div > ul{
+        width: 400px;
+    }
+    
+    #qualificacao{
+        width: 550px;
+        height: 360px;
+    }
+
+    #projetos{        
+        gap: 100px;
+    }
+
+    #box-pai{
+        height: 500px;
+    }
+    
+    #box2{
+        height: 300px;
+    }
+}

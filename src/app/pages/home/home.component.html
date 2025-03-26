@@ -1,0 +1,109 @@
+<app-nav></app-nav>
+
+<div id="container" class="d-flex justify-content-xl-center flex-column align-items-center flex-lg-row-reverse text-white">
+    <div id="container_user">
+        <img class="rounded-circle mt-5 mt-lg-0" src="perfil.jpg" alt="">
+    </div>
+    <div id="container_description" class="text-center mt-3">
+        <h1>William Araujo</h1>
+        <h2>Desenvolvedor Front-End</h2>
+        <p class="mt-3 px-3">Bem-vindo ao meu portfólio! Aqui você encontrará minhas habilidades, projetos e experiências no
+            desenvolvimento web.</p>
+
+        <div class="my-4">
+            <button class="btn border border-2 border-white px-2 mx-2">
+                <a class="text-decoration-none text-white" href="https://github.com/william3002">GitHub <img
+                        class="img-logo" src="seta-direita02.png" alt=""></a>
+            </button>
+
+            <button class="btn border border-2 border-white px-2 mx-2">
+                <a class="text-decoration-none text-white"
+                    href="https://www.linkedin.com/in/william-araujo-3a6680256/">Linkedin <img class="img-logo"
+                        src="seta-direita02.png" alt=""></a>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Sobre Mim -->
+<div id="sobre" class="container mt-5 d-flex flex-column justify-content-lg-center">
+    <h2 class="text-center mb-4">Sobre Mim</h2>
+    <p class="text-center px-3">
+        Sou um desenvolvedor Front-End apaixonado por criar interfaces modernas e responsivas. Tenho experiência
+        com
+        tecnologias como HTML, CSS, JavaScript, Bootstrap e Angular. Meu objetivo é construir aplicações
+        eficientes
+        e
+        intuitivas que proporcionem a melhor experiência para os usuários.
+    </p>
+</div>
+
+
+
+<div id="box-pai" class="d-xl-flex">
+    <!-- Habilidades -->
+    <div id="habilidades" class="d-flex flex-column justify-content-center mx-auto  p-3 border rounded-3">
+        <h2 class="text-center text-white my-2">Minhas Habilidades</h2>
+        <div class="d-flex justify-content-center align-items-center">
+            <ul id="box" class="list-unstyled p-4 rounded-3">
+                <li class="border border-1 border-black rounded-2 m-2 p-1">
+                    <img class="icon" src="html.png" alt="HTML" class="img-fluid">
+                </li>
+                <li class="border border-1 border-black rounded-2 m-2 p-1">
+                    <img class="icon" src="css.png" alt="CSS" class="img-fluid">
+                </li>
+                <li class="border border-1 border-black rounded-2 m-2 p-1">
+                    <img class="icon" src="js.png" alt="JavaScript" class="img-fluid">
+                </li>
+                <li class="border border-1 border-black rounded-2 m-2 p-1">
+                    <img class="icon" src="bootstrap.png" alt="Bootstrap" class="img-fluid">
+                </li>
+                <li class="border border-1 border-black rounded-2 m-2 p-1">
+                    <img class="icon" src="angular.png" alt="Angular" class="img-fluid">
+                </li>
+                <li class="border border-1 border-black rounded-2 m-2 p-1">
+                    <img class="icon" src="nodejs.png" alt="Node.js" class="img-fluid">
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+    <!-- Minhas Qualificações -->
+    <div id="qualificacao" class="container d-flex flex-column justify-content-center my-5 my-xl-0 border border-1 rounded-3 p-3">
+        <div class="d-flex justify-content-center my-3 mx-3">
+            <h2 class="text-white">Minhas Qualificações</h2> <img class="ms-4" src="certificado03.png" width="50px" alt="">
+        </div>
+        <ul class="d-flex flex-column justify-content-center list-group list-group-flush text-center rounded-3 px-3 ">
+            <li class="w-100 list-group-item">Formação em Desenvolvimento Web</li>
+            <li class="w-100 list-group-item">Experiência com Angular e Bootstrap</li>
+            <li class="w-100 list-group-item">Conhecimento em APIs e integração de sistemas</li>
+            <li class="w-100 list-group-item">Habilidade em design responsivo e acessibilidade</li>
+            <li class="w-100 list-group-item">Conhecimento em Métodos Ágeis e Scrum</li>
+        </ul>
+    </div>
+    
+</div>
+
+
+<!-- Meus Projetos -->
+<div>
+    <h3 class="text-center mt-3">Projetos</h3>
+    <div id="projetos" class="d-lg-flex justify-content-center">
+        <app-card imgProjeto="projeto-gorjeta.png" titulo="Calculadora de gorjeta"
+            description="Este site facilita o cálculo de gorjetas e a divisão da conta entre várias pessoas, bastando inserir o valor total, a porcentagem da gorjeta e o número de pessoas."></app-card>
+        <app-card imgProjeto="newshomepage.png" titulo="Homepage"
+            description="Uma homepage responsiva com menu hambúrguer, completamente desenvolvida utilizando apenas a biblioteca Bootstrap."></app-card>
+        <app-card
+        imgProjeto="projeto-pokedex.png" titulo="Pokedex"
+            description="Este projeto permite pesquisar Pokémon e visualizar apenas suas habilidades de forma rápida e simples. Desenvolvido com Angular e TypeScript."></app-card>
+    </div>
+</div>
+
+<!-- Rodapé -->
+<div id="contato">
+    <app-footer></app-footer>
+</div>
