@@ -2,7 +2,7 @@
 
 <div id="container" class="d-flex justify-content-xl-center flex-column align-items-center flex-lg-row-reverse text-white">
     <div id="container_user">
-        <img class="rounded-circle mt-5 mt-lg-0" src="perfil.jpg" alt="">
+        <img id="perfil" class="rounded-circle mt-5 mt-lg-0" src="perfil03.jpg" alt="Foto de perfil">
     </div>
     <div id="container_description" class="text-center mt-3">
         <h1>William Araujo</h1>
@@ -11,12 +11,12 @@
             desenvolvimento web.</p>
 
         <div class="my-4">
-            <button class="btn border border-2 border-white px-2 mx-2">
+            <button class="btns-social btn border border-2 border-white px-2 mx-2">
                 <a class="text-decoration-none text-white" href="https://github.com/william3002">GitHub <img
                         class="img-logo" src="seta-direita02.png" alt=""></a>
             </button>
 
-            <button class="btn border border-2 border-white px-2 mx-2">
+            <button class="btns-social btn border border-2 border-white px-2 mx-2">
                 <a class="text-decoration-none text-white"
                     href="https://www.linkedin.com/in/william-araujo-3a6680256/">Linkedin <img class="img-logo"
                         src="seta-direita02.png" alt=""></a>
@@ -42,10 +42,10 @@
 
 
 
-<div id="box-pai" class="d-xl-flex">
+<div id="box-pai" >
     <!-- Habilidades -->
-    <div id="habilidades" class="d-flex flex-column justify-content-center mx-auto  p-3 border rounded-3">
-        <h2 class="text-center text-white my-2">Minhas Habilidades</h2>
+    <div id="habilidades" class="d-flex flex-column justify-content-center mx-auto mx-lg-0 p-3 border rounded-3">
+        <h2 class="text-center text-white my-2 mb-3">Minhas Habilidades</h2>
         <div class="d-flex justify-content-center align-items-center">
             <ul id="box" class="list-unstyled p-4 rounded-3">
                 <li class="border border-1 border-black rounded-2 m-2 p-1">
@@ -73,12 +73,12 @@
     
     
     <!-- Minhas Qualificações -->
-    <div id="qualificacao" class="container d-flex flex-column justify-content-center my-5 my-xl-0 border border-1 rounded-3 p-3">
-        <div class="d-flex justify-content-center my-3 mx-3">
+    <div id="qualificacao" class="container d-flex flex-column justify-content-center my-5 mx-auto mx-lg-0 border border-1 rounded-3 mx-0">
+        <div class="d-flex justify-content-center my-2 mx-3">
             <h2 class="text-white">Minhas Qualificações</h2> <img class="ms-4" src="certificado03.png" width="50px" alt="">
         </div>
-        <ul class="d-flex flex-column justify-content-center list-group list-group-flush text-center rounded-3 px-3 ">
-            <li class="w-100 list-group-item">Formação em Desenvolvimento Web</li>
+        <ul class="d-flex flex-column justify-content-center list-group list-group-flush text-center rounded-3 px-3 mx-auto mb-3">
+            <li class="w-100 list-group-item" title="Análise e Desenvolvimento de Sistemas" > ADS - Cruzeiro do sul 06/2024</li>
             <li class="w-100 list-group-item">Experiência com Angular e Bootstrap</li>
             <li class="w-100 list-group-item">Conhecimento em APIs e integração de sistemas</li>
             <li class="w-100 list-group-item">Habilidade em design responsivo e acessibilidade</li>
@@ -93,12 +93,14 @@
 <div>
     <h3 class="text-center mt-3">Projetos</h3>
     <div id="projetos" class="d-lg-flex justify-content-center">
-        <app-card imgProjeto="projeto-gorjeta.png" titulo="Calculadora de gorjeta"
+        <app-card 
+            imgProjeto="projeto-gorjeta.png" titulo="Calculadora de gorjeta" linkProjeto="https://github.com/william3002/calculadora-de-gorjeta"
             description="Este site facilita o cálculo de gorjetas e a divisão da conta entre várias pessoas, bastando inserir o valor total, a porcentagem da gorjeta e o número de pessoas."></app-card>
-        <app-card imgProjeto="newshomepage.png" titulo="Homepage"
+        <app-card 
+            imgProjeto="newshomepage.png" titulo="Homepage" linkProjeto="https://github.com/william3002/news-homepage-main"
             description="Uma homepage responsiva com menu hambúrguer, completamente desenvolvida utilizando apenas a biblioteca Bootstrap."></app-card>
         <app-card
-        imgProjeto="projeto-pokedex.png" titulo="Pokedex"
+            imgProjeto="projeto-pokedex.png" titulo="Pokedex" linkProjeto="https://github.com/william3002/pokedex"
             description="Este projeto permite pesquisar Pokémon e visualizar apenas suas habilidades de forma rápida e simples. Desenvolvido com Angular e TypeScript."></app-card>
     </div>
 </div>

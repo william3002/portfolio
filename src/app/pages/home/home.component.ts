@@ -22,6 +22,7 @@ export class HomeComponent implements OnInit {
       const containerDescription = document.querySelector('#container_description');
       const sobre = document.getElementById("sobre");
       const habilidades = document.getElementById("box-pai");
+      const btnRedeSocial = document.querySelectorAll('.btns-social');
 
       let tl = gsap.timeline();
 
@@ -39,6 +40,18 @@ export class HomeComponent implements OnInit {
         ease: "expo.out",
       });
 
+      // btnRedeSocial.forEach(botao => {
+      //   botao?.addEventListener("mouseenter", () =>{
+      //     gsap.from(botao, {
+      //       scale: 1,
+  
+      //       duration: 0.5,
+      //       delay: 0.5,
+      //       ease:"back.out(1.7)"
+      //     });
+      //   })  
+      // })
+      
       gsap.from(sobre, {
         xPercent: -500,
         duration: 2,

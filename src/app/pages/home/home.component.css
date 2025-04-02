@@ -1,10 +1,23 @@
 #container{
     background-color: #1E477F;
-    height: 667px;
+    height: 720px;
 }
 
-#container > div > img{
-    width: 300px;
+#perfil{
+    width: 400px;
+}
+
+.btns-social {
+    transition: transform 0.3s ease-in-out;
+}
+
+.btns-social:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+.btns-social:not(:hover) {
+    transition: transform 1s ease-out;
 }
 
 .img-logo{
@@ -28,14 +41,22 @@
     gap: 10px;
 }
 
+#habilidades{
+    width: 320px;
+    background-color: #1E477F;
+}
+
 #qualificacao{
     width: 320px;
     background-color: #1E477F;
 }
 
-#habilidades{
-    width: 320px;
-    background-color: #1E477F;
+#qualificacao > ul{
+    width: 300px;
+}
+
+#qualificacao > ul > li{
+    height: 60px;
 }
 
 div > div > ul > li{
@@ -76,6 +97,14 @@ div > div > ul > li{
         width: 550px;
         height: 360px;
     }
+
+    #qualificacao > ul{
+        width: 390px;
+    }
+    
+    #qualificacao > ul > li{
+        height: 47px;
+    }
     
     #projetos{        
         gap: 100px;
@@ -83,6 +112,10 @@ div > div > ul > li{
 
     #box-pai{
         height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
     }
     
     #box2{
@@ -97,7 +130,17 @@ div > div > ul > li{
     }
     
     #box-pai{
-        height: 850px;
+        width: 1167px;
+        height: 500px;
+        gap: 30px;
+    }
+
+    #qualificacao > ul{
+        width: 445px;
+    }
+    
+    #qualificacao > ul > li{
+        height: 47px;
     }
     
     #projetos{
@@ -116,7 +159,16 @@ div > div > ul > li{
     }
     
     #box-pai{
+        width: 1550px;
         height: 460px;
+    }
+
+    #qualificacao > ul{
+        width: 445px;
+    }
+    
+    #qualificacao > ul > li{
+        height: 47px;
     }
     
     #projetos{
@@ -129,6 +181,14 @@ div > div > ul > li{
 }
 
 @media (width >= 1400px) {
+    #qualificacao > ul{
+        width: 445px;
+    }
+    
+    #qualificacao > ul > li{
+        height: 47px;
+    }
+
     #projetos{
         gap: 125px;
     }

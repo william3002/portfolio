@@ -11,4 +11,5 @@ export class CardComponent {
   @Input() imgProjeto = '';
   @Input() titulo = '';
   @Input() description = '';
+  @Input() linkProjeto = '';
 }

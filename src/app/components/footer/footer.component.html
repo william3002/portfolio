@@ -1,6 +1,6 @@
 <footer class="footer bg-dark text-white py-4">
     <div class="container text-center">
-        <div class="row gap-3 gap-lg-0">
+        <div class="row justify-content-center">
             <!-- Contato -->
             <div class="col-md-4 mb-3">
                 <h5>Contato</h5>
@@ -10,26 +10,35 @@
             </div>
 
             <!-- Redes Sociais -->
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-5">
                 <h5>Redes Sociais</h5>
-                <a href="https://github.com/william3002" target="_blank">GitHub</a> |
-                <a href="https://www.linkedin.com/in/william-araujo-3a6680256/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/william3002" target="_blank" class="text-white me-2">
+                    <i class="bi bi-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/william-araujo-3a6680256/" target="_blank" class="text-white">
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                </a>
             </div>
-
-            <!-- Horário de Funcionamento -->
             <div class="col-md-4 mb-3">
-                <h5>Atendimento</h5>
-                <p>Segunda a Sexta: 9h às 18h</p>
-                <p>Sábado: 10h às 14h</p>
-                <p>Domingo: Fechado</p>
+                <h6 class="fst-italic">Voltar ao topo da pagina</h6>
+                <button (click)="scrollToTop()" class="btn btn-light my-3 px-0 rounded-circle ">
+                    <img src="setas-para-cima.png" alt="">
+                </button>
             </div>
-
         </div>
-        <button (click)="scrollToTop()" class="btn bg-white mb-3">Voltar ao topo</button>
+
+        <!-- Botão de Voltar ao Topo -->
 
         <hr class="my-3 border-light">
 
-        <p>Desenvolvido com Angular, TypeScript e Bootstrap.</p>
-        <p class="small">&copy; 2025 william araujo. Todos os direitos reservados.</p>
+        <!-- Tecnologias Usadas -->
+        <p>
+            Desenvolvido com
+            <i class="bi bi-bootstrap text-primary"></i> Bootstrap,
+            <i class="bi bi-code-slash text-warning"></i> TypeScript e
+            <i class="bi bi-angular text-danger"></i> Angular.
+        </p>
+
+        <p class="small text-secondary">&copy; 2025 William Araujo. Todos os direitos reservados.</p>
     </div>
 </footer>
