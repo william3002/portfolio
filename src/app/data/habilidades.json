@@ -1,0 +1,34 @@
+[
+    {
+        "nome": "Html",
+        "logo": "html.png"
+    },
+    {
+        "nome": "Css",
+        "logo": "css.png"
+    },
+    {
+        "nome": "Angular",
+        "logo": "angular.png"
+    },
+    {
+        "nome": "Javascript",
+        "logo": "js.png"
+    },
+    {
+        "nome": "Typescript",
+        "logo": "typescript.png"
+    },
+    {
+        "nome": "Bootstrap",
+        "logo": "bootstrap.png"
+    },
+    {
+        "nome": "Tailwind",
+        "logo": "tailwind.png"
+    },
+    {
+        "nome": "Json",
+        "logo": "json.png"
+    }
+]
