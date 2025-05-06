@@ -3,10 +3,3 @@
     background-size: cover;
     background-position: center;
 }
-
-
-@media (width >= 1440px) {
-  #container {
-    height: 663px;
-  }
-}

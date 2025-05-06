@@ -4,7 +4,7 @@
         <div class="flex justify-between items-center h-16">
             <!-- Logo ou Título -->
             <div>
-                <a id="logo" href="#" class="text-3xl font-bold active:text-gray-300">Developer</a>
+                <a id="logo" href="#" class="text-2xl xl:text-3xl font-bold active:text-gray-300">Developer</a>
             </div>
 
             <!-- Botão hambúrguer (aparece só no mobile) -->
@@ -25,9 +25,9 @@
             </div>
 
             <!-- Menu (desktop) -->
-            <div class="hidden sm:flex space-x-4">
+            <div class="hidden sm:flex lg:space-x-2">
                 @for (item of nav; track $index) {
-                <a href="#{{item}}" class="block hover:bg-gray-700 px-3 py-2 rounded-md">{{item}}</a>
+                <a href="#{{item}}" class="block hover:bg-gray-700 px-1.5 py-2 rounded-md md:px-3">{{item}}</a>
                 }
             </div>
         </div>
