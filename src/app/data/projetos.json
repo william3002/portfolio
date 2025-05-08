@@ -8,14 +8,8 @@
     {
       "foto": "gerenciador-de-extensoes.png",
       "nome": "Gerenciador de extensões",
-      "linkDoProjeto": "https://gerenciador-de-extensoes-mncf.vercel.app/",
+      "linkDoProjeto": "https://gerenciador-de-extensoes.vercel.app/",
       "descricao": "Aplicação Angular standalone com Tailwind CSS que exibe uma lista de extensões com filtros por status (All, Focus, Infocus), suporte a tema escuro, remoção de itens e layout responsivo para mobile."
-    },
-    {
-      "foto": "projeto-pokedex.png",
-      "nome": "Pokedex",
-      "linkDoProjeto": "https://github.com/william3002/pokedex",
-      "descricao": "Este projeto permite pesquisar Pokémon e visualizar apenas suas habilidades de forma rápida e simples. Desenvolvido com Angular e TypeScript."
     },
     {
       "foto": "gerador-de-conselhos.png",
