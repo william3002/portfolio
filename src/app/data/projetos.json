@@ -16,6 +16,12 @@
       "nome": "Gerador de Conselhos",
       "linkDoProjeto": "https://gerador-de-conselhos-inky.vercel.app/",
       "descricao": "O projeto Gerador de Conselhos é uma aplicação web desenvolvida com Angular e Bootstrap, que consome a Advice Slip API para exibir conselhos aleatórios de forma dinâmica e responsiva.​"
+    },
+    {
+      "foto": "projeto-turismo-espacial.png",
+      "nome": "Site de turismo espacial",
+      "linkDoProjeto": "https://site-turismo-espacial.vercel.app/home",
+      "descricao": "Esse projeto é uma aplicação frontend desenvolvida com Angular, com foco em apresentar destinos e veículos espaciais de forma interativa e responsiva. estilização com TailwindCSS."
     }
 ]
   
