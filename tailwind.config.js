@@ -5,7 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      scrollBehavor:['responsive']
+      fontFamily: {
+        inter: ['inter', 'sans serif']
+      }
     },
   },
   plugins: [],

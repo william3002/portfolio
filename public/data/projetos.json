@@ -1,0 +1,39 @@
+[
+    {
+      "foto": "images/projeto-gorjeta.png",
+      "nome": "Calculadora de gorjeta",
+      "linkDoProjeto": "https://calculadora-de-gorjeta-eight.vercel.app/",
+      "descricao": "Este site facilita o cálculo de gorjetas e a divisão da conta entre várias pessoas, bastando inserir o valor total, a porcentagem da gorjeta e o número de pessoas.",
+      "estaAtivo": true
+    },
+    {
+      "foto": "images/gerenciador-de-extensoes.png",
+      "nome": "Gerenciador de extensões",
+      "linkDoProjeto": "https://gerenciador-de-extensoes.vercel.app/",
+      "descricao": "Aplicação Angular standalone com Tailwind CSS que exibe uma lista de extensões com filtros por status (All, Focus, Infocus), suporte a tema escuro, remoção de itens e layout responsivo para mobile.",
+      "estaAtivo": true
+    },
+    {
+      "foto": "images/gerador-de-conselhos.png",
+      "nome": "Gerador de Conselhos",
+      "linkDoProjeto": "https://gerador-de-conselhos-inky.vercel.app/",
+      "descricao": "O projeto Gerador de Conselhos é uma aplicação web desenvolvida com Angular e Bootstrap, que consome a Advice Slip API para exibir conselhos aleatórios de forma dinâmica e responsiva.​",
+      "estaAtivo": true
+    },
+    {
+      "foto": "images/projeto-turismo-espacial.png",
+      "nome": "Site de turismo espacial",
+      "linkDoProjeto": "https://site-turismo-espacial.vercel.app/home",
+      "descricao": "Esse projeto é uma aplicação frontend desenvolvida com Angular, com foco em apresentar destinos e veículos espaciais de forma interativa e responsiva. estilização com TailwindCSS.",
+      "estaAtivo": true
+    },
+    {
+      "foto": "images/smartFit.png",
+      "nome": "Smart Fit - Consulta de Unidades",
+      "linkDoProjeto": "https://smart-fit-lac.vercel.app/",
+      "descricao": "Projeto em Angular que consome uma API da Smart Fit e filtra unidades abertas ou fechadas com base no horário atual, usando some e includes. Utiliza TypeScript, Tailwind CSS e lógica otimizada de array.",
+      "estaAtivo": true
+    }
+    
+]
+  
