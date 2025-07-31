@@ -5,7 +5,7 @@
         <section
             class="h-72 w-64 absolute top-10 right-7 z-10 shadow-md bg-blue-600 rounded-3xl sm:right-36 md:static xl:h-96 xl:w-80">
             <div class="flex flex-col justify-center items-center gap-y-3 h-56 w-full xl:h-80 xl:gap-y-6">
-                <img class="w-40 h-44 rounded-full xl:w-56 xl:h-56" src="images/perfil.png" alt="">
+                <img class="w-40 h-44 rounded-full xl:w-56 xl:h-56" src="images/perfil2.png" alt="">
                 <h2 class=" text-2xl font-semibold xl:text-3xl">William Araujo</h2>
             </div>
             <!-- footer do card -->
@@ -38,7 +38,7 @@
             <div *ngIf="mostrarHabilidades"
                 class="grid grid-cols-3 gap-5 justify-items-center md:justify-items-start mb-2">
                 @for (item of icons; track $index) {
-                <img class="w-10" loading="lazy" [src]="item.logo" [alt]="item.nome">
+                <img class="w-10 hover:scale-105" loading="lazy" [src]="item.logo" [alt]="item.nome">
                 }
             </div>
             <button
