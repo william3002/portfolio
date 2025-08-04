@@ -33,7 +33,13 @@
       "linkDoProjeto": "https://smart-fit-lac.vercel.app/",
       "descricao": "Projeto em Angular que consome uma API da Smart Fit e filtra unidades abertas ou fechadas com base no horário atual, usando some e includes. Utiliza TypeScript, Tailwind CSS e lógica otimizada de array.",
       "estaAtivo": true
-    }
-    
+    },
+    {
+      "foto": "images/SPNosTrilhos.png",
+      "nome": "SPNosTrilhos - Status das Linhas de Metrô e Trem",
+      "linkDoProjeto": "https://sp-nos-trilhos.vercel.app/",
+      "descricao": "SPNosTrilhos é uma aplicação Angular que consome uma API pública para exibir o status em tempo real das linhas da CPTM e Metrô de São Paulo.",
+      "estaAtivo": true
+    } 
 ]
   
