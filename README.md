@@ -1,27 +1,42 @@
-# Portfolio
+# 🌐 Portfólio Pessoal - William Araujo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+Este é meu portfólio pessoal, desenvolvido com foco em apresentar minha trajetória, habilidades e projetos como desenvolvedor frontend. O objetivo é destacar minha evolução técnica, boas práticas de código e atenção aos detalhes em cada projeto.
 
-## Development server
+## 🔧 Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular** (Framework principal)
+- **TypeScript**
+- **Tailwind CSS** (Estilização moderna e responsiva)
+- **HTML5 e CSS3**
+- **Vercel** (Hospedagem)
+- **Lazy loading** de imagens
+- **Design responsivo** adaptado para diferentes tamanhos de tela
 
-## Code scaffolding
+## 💡 Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Sessão **"Sobre mim"** com resumo técnico e pessoal
+- Exibição de **projetos com status ativo/inativo**
+- Filtro dinâmico de habilidades
+- **Imagens otimizadas** com `loading="lazy"`
+- Acessível e compatível com dispositivos móveis
 
-## Build
+## 🚀 Deploy
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+O portfólio está hospedado gratuitamente na Vercel e pode ser acessado em:
 
-## Running unit tests
+🔗 [https://portfolio-nine-livid-92.vercel.app/home](https://portfolio-nine-livid-92.vercel.app/home)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📁 Organização
 
-## Running end-to-end tests
+- `src/app`: Componentes principais e estrutura da aplicação
+- `assets/images`: Imagens utilizadas nos projetos e layout
+- `projects.json`: Dados dos projetos exibidos dinamicamente
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 📫 Contato
 
-## Further help
+Se quiser saber mais ou colaborar comigo:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- [LinkedIn](https://sp-nos-trilhos.vercel.app/)  
+- [Portfólio](https://portfolio-nine-livid-92.vercel.app/home)  
+
+---
