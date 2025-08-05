@@ -13,13 +13,19 @@
     </nav>
 </header>
 
-<div *ngIf="estaAberto" class="fixed h-screen w-60 top-0 right-0 z-20 bg-white p-2 md:hidden">
-    <div class="flex justify-end p-6">
-        <img (click)="abrirMenu()" class="w-10 text-end" src="icons/btnX.png" alt="">
-    </div>
-    <nav class="flex flex-col items-center text-xl space-y-5 mt-10">
-        <a routerLinkActive="text-blue-600 underline" [routerLinkActiveOptions]="{ exact: true}" routerLink="home">Home</a>
-        <a routerLinkActive="text-blue-600 underline" [routerLinkActiveOptions]="{ exact: true}" routerLink="projetos">Projetos</a>
-        <a routerLinkActive="text-blue-600 underline" [routerLinkActiveOptions]="{ exact: true}" routerLink="contato">Contato</a>
-    </nav>
+<div 
+  [ngClass]="{
+    'translate-x-0 ': estaAberto,
+    'translate-x-full pointer-events-none': !estaAberto
+  }"
+  class="fixed h-screen w-60 top-0 right-0 z-20 bg-white p-2 md:hidden transition-all duration-700 ease-in-out transform"
+>
+  <div class="flex justify-end p-6">
+    <img (click)="abrirMenu()" class="w-10 text-end" src="icons/btnX.png" alt="">
+  </div>
+  <nav class="flex flex-col items-center text-xl space-y-5 mt-10">
+    <a routerLinkActive="text-blue-600 underline underline-offset-4" [routerLinkActiveOptions]="{ exact: true}" routerLink="home">Home</a>
+    <a routerLinkActive="text-blue-600 underline underline-offset-4" [routerLinkActiveOptions]="{ exact: true}" routerLink="projetos">Projetos</a>
+    <a routerLinkActive="text-blue-600 underline underline-offset-4" [routerLinkActiveOptions]="{ exact: true}" routerLink="contato">Contato</a>
+  </nav>
 </div>
